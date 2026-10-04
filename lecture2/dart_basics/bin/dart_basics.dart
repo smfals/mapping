@@ -1,5 +1,12 @@
-import 'package:dart_basics/dart_basics.dart' as dart_basics;
+import 'flow_demo.dart';
+import 'func_demo.dart';
+import 'types_demo.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_basics.calculate()}!');
+  print('===== 1. 变量与类型 =====');
+  typesDemo();
+  print('===== 2. 函数 =====');
+  funcDemo();
+  print('===== 3. 运算符与控制流 =====');
+  flowDemo();
 }
